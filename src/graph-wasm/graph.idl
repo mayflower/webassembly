@@ -1,0 +1,4 @@
+interface GraphMaker {
+  void GraphMaker();
+  void makeGraph();
+};
