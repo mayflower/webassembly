@@ -50,7 +50,7 @@ bool check_edge(Graph& g, std::size_t a, std::size_t b) {
   return true;
 }
 
-void GraphMaker::makeGraph()
+void mayflower::wasm::GraphMaker::makeGraph()
 {
   std::size_t N = 5;
 

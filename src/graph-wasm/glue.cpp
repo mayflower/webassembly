@@ -20,15 +20,15 @@ void EMSCRIPTEN_KEEPALIVE emscripten_bind_VoidPtr___destroy___0(void** self) {
 
 // GraphMaker
 
-GraphMaker* EMSCRIPTEN_KEEPALIVE emscripten_bind_GraphMaker_GraphMaker_0() {
-  return new GraphMaker();
+mayflower::wasm::GraphMaker* EMSCRIPTEN_KEEPALIVE emscripten_bind_GraphMaker_GraphMaker_0() {
+  return new mayflower::wasm::GraphMaker();
 }
 
-void EMSCRIPTEN_KEEPALIVE emscripten_bind_GraphMaker_makeGraph_0(GraphMaker* self) {
+void EMSCRIPTEN_KEEPALIVE emscripten_bind_GraphMaker_makeGraph_0(mayflower::wasm::GraphMaker* self) {
   self->makeGraph();
 }
 
-void EMSCRIPTEN_KEEPALIVE emscripten_bind_GraphMaker___destroy___0(GraphMaker* self) {
+void EMSCRIPTEN_KEEPALIVE emscripten_bind_GraphMaker___destroy___0(mayflower::wasm::GraphMaker* self) {
   delete self;
 }
 
